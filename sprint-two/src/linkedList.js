@@ -55,39 +55,14 @@ var Node = function(value){
 
   return node;
 };
-
 /*
  * Complexity: What is the time complexity of the above functions?
+ addTail: linear O(n)
+ removeHead: constant O(1)
+ contains: linear O(n)
  */
 
  
 
-//  var LinkedList = function(){
-//   var list = {};
- 
-//   list.head = null;
-//   list.tail = null;
-
-//  list.addToTail = function(value){
-//   if(!list.head) {
-//     list.head = Node(value);    
-//     list.tail = Node(value);
-//     list.head.next = list.tail
-//     }
-//     else {
-//     list.tail.next = Node(value);
-//     list.tail = Node(value);
-// console.log(list);
-//     }
-// list.removeHead = function(){
-    //console.log(list);
-    // var result = list.head.value;
-    // list.head = list.head.next;
-    // list.head = list[headPos];
-    // console.log(list[headPos].value);
-    // return result;
-  // };
-// };
 
 
-// };
